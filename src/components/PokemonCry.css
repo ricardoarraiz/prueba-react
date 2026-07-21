@@ -1,0 +1,72 @@
+.btn-cry {
+  background: linear-gradient(135deg, #1b381e 0%, #0d2110 100%);
+  color: #a3e635;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 12px 22px;
+  border: 2px solid #4ade80;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 
+    0 4px 0 #14532d,
+    0 0 12px rgba(74, 222, 128, 0.25),
+    inset 0 1px 2px rgba(255, 255, 255, 0.2);
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-cry:hover {
+  background: linear-gradient(135deg, #224827 0%, #122d16 100%);
+  border-color: #86efac;
+  color: #bbf7d0;
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 0 #14532d,
+    0 0 18px rgba(74, 222, 128, 0.45),
+    inset 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.btn-cry:active {
+  transform: translateY(3px);
+  box-shadow: 
+    0 1px 0 #14532d,
+    0 0 8px rgba(74, 222, 128, 0.2),
+    inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.pokedex-block.cry-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+}
+
+.block-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.block-header h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.block-header p {
+  margin: 0;
+  color: #a1a1aa;
+  font-size: 0.95rem;
+}
+
+.block-action {
+  margin-top: 4px;
+}
